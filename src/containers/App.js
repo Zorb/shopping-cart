@@ -1,11 +1,13 @@
 import React from 'react'
 import ProductsContainer from './ProductsContainer'
 import CartContainer from './CartContainer'
+import Upload from "./Upload";
 
 const App = () => (
-  <div>
+    <div>
     <h2>Online Shop</h2>
     <hr/>
+        <Upload/>
       <div className="container">
           <div className="row">
               <div className="span12">
@@ -22,6 +24,6 @@ const App = () => (
     <hr/>
     <CartContainer />
   </div>
-)
+);
 
 export default App
